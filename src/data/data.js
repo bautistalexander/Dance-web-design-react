@@ -1,4 +1,4 @@
-export const logo = '../../logo.png';
+export const logo = '../assets/logo.png';
 export const principal_imagen = '../../img2.png';
 
 export const mensajes = {
