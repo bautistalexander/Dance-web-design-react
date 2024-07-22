@@ -1,0 +1,65 @@
+.consult {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 2rem;
+  gap: 10rem;
+}
+
+.consult_left {
+  position: relative;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color1);
+  text-transform: uppercase;
+}
+
+.consult_left hr {
+  position: absolute;
+  width: 17rem;
+  border: 2px solid var(--color3);
+  border-radius: 20%;
+  margin: 0;
+}
+
+.consult_left>div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.consult_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email_container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  background-color: var(--color6);
+  padding: 1rem 2rem;
+}
+
+.email_container>input{
+  width: 80%;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: var(--color1);
+  border: none;
+  outline: none;
+  color: var(--color6);
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.btn_consult {
+  border-radius: 0 1rem 1rem 0;
+  text-transform: uppercase;
+  background-color: var(--color3);
+  color: var(--color1);
+  width: 20%;
+  font-size: 1rem;
+}

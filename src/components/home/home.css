@@ -1,0 +1,153 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_home {
+  padding: 1.5rem;
+  padding-top: .5rem;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_home {
+  flex: 1px;
+  position: relative;
+  background-color: var(--color3);
+}
+
+.home_the_best_ad{
+  margin-top: 4rem;
+  background-color: var(--color6);
+  border-radius: 4rem;
+  width: fit-content;
+  padding: 20px 13px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home_the_best_ad span {
+  z-index: 2;
+}
+
+.home_the_best_ad div {
+  position: absolute;
+  background-color: var(--color3);
+  width: 5.1rem;
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+}
+
+.home_title {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+  text-overflow: inherit;
+  margin-bottom: 2rem;
+}
+
+.home_title div:nth-of-type(3) {
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.home_figures {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home_figures div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_figures div span:nth-of-type(1) {
+  color: var(--color1);
+  font-size: 2rem;
+}
+
+.home_figures div span:nth-of-type(2) {
+  color: var(--color2);
+  text-transform: uppercase;
+}
+
+.home_buttons {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.home_buttons button:nth-of-type(1) {
+  color: var(--color1);
+  background-color: var(--color3);
+  width: 10rem;
+  font-size: 1rem;
+}
+
+.home_buttons button:nth-of-type(2) {
+  color: var(--color1);
+  background-color: transparent;
+  width: 10rem;
+  border: 2px solid var(--color3);
+  font-size: 1rem;
+}
+
+.right_home .btn{
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: var(--color3);
+  background-color: var(--color1);
+}
+
+.home_image {
+  position: absolute;
+  top: 3.5rem;
+  right: 10rem; /*10*/
+  height: 40rem;  
+}
+
+.home_offer {
+  position: absolute;
+  top: 25rem;
+  right: 35rem; /*37*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 5px solid var(--color3);
+  background-color: var(--color6);
+  z-index: 10;
+}
+
+.home_offer span{
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color1);
+  margin-bottom: -0.5rem;
+}
+
+.home_offer span:nth-of-type(2) {
+  color: transparent;
+  font-size: 5rem;
+}
+
+
+

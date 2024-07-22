@@ -1,0 +1,78 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.programs_title {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: var(--color1);
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.programs_title span:nth-of-type(2) {
+  font-size: 4rem;
+}
+
+.programs_body {
+  display: flex;
+  gap: 2rem;
+}
+
+.programs_program {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color4);
+  padding: 2rem;
+  gap: 1rem;
+  color: var(--text-color);
+  justify-content: space-between;
+  width: 25%;
+}
+
+.programs_program svg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.programs_program .mysvg path{
+  fill: var(--text-color);
+}
+
+.programs_program div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+}
+
+.programs_program div:nth-of-type(1) svg{
+  flex: 1;
+}
+.programs_program div:nth-of-type(1) span{
+  padding-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  flex: 2;
+}
+
+.programs_program-join{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.programs_program-join i{
+  font-size: 1.5rem;
+}
+
+.programs_program:hover {
+  background: var(--planCard);
+  cursor: pointer;
+}
