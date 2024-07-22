@@ -44,10 +44,10 @@ export const datos_programas = [
 
 
 export const img_participaciones = [
-  '.img8.jpg',
-  '.img5.jpg',
+  './img8.jpg',
+  './img5.jpg',
   './img4.jpg',
-  '.img7.jpg',
+  './img7.jpg',
 ];
 
 export const participaciones = [
