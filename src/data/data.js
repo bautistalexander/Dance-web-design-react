@@ -1,5 +1,5 @@
-export const logo = '../assets/logo.png';
-export const principal_imagen = '../../img2.png';
+export const logo = './logo.png';
+export const principal_imagen = './img2.png';
 
 export const mensajes = {
   mensaje1: 'El mejor club de baile en el país'
@@ -44,10 +44,10 @@ export const datos_programas = [
 
 
 export const img_participaciones = [
-  '../../img8.jpg',
-  '../../img5.jpg',
-  '../../img4.jpg',
-  '../../img7.jpg',
+  '.img8.jpg',
+  '.img5.jpg',
+  './img4.jpg',
+  '.img7.jpg',
 ];
 
 export const participaciones = [
@@ -91,28 +91,28 @@ export const ofertas_curso = [
 export const testimonios = [
   {
     id: 1,
-    imagen: '../../img11.jpg',
+    imagen: './img11.jpg',
     comentario: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500',
     nombre: 'Diego Estevez',
     rol: 'Estudiante'
   },
   {
     id: 2,
-    imagen: '../../img13.jpg',
+    imagen: './img13.jpg',
     comentario: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500',
     nombre: 'Pamela Poma',
     rol: 'Instructor/a'
   },
   {
     id: 3,
-    imagen: '../../img10.jpg',
+    imagen: './img10.jpg',
     comentario: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500',
     nombre: 'Maria Peña',
     rol: 'Instructor/a'
   },
   {
     id: 4,
-    imagen: '../../img12.jpg',
+    imagen: './img12.jpg',
     comentario: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500',
     nombre: 'Alan Morales',
     rol: 'Estudiante'
